@@ -14,7 +14,7 @@ const messages = {
         period: '2025 - 2026 (4 months)',
         description:
           'Developed web applications using Vue.js and TypeScript with Vuetify and PrimeVue. Integrated REST APIs via Scalar and collaborated with the back-end team to display dynamic data. Participated in code reviews and followed team coding standards.',
-        technologies: ['Vue.js', 'TypeScript', 'Vuetify', 'PrimeVue'],
+        technologies: ['Vue.js', 'TypeScript', 'Nuxt.js', 'Vuetify'],
       },
     ],
     education: [
@@ -35,7 +35,7 @@ const messages = {
         period: '2568 - 2569 (4 เดือน)',
         description:
           'พัฒนาเว็บแอปพลิเคชันด้วย Vue.js และ TypeScript โดยใช้ Vuetify และ PrimeVue เชื่อมต่อ REST API ผ่าน Scalar และทำงานร่วมกับทีม Back-end เข้าร่วมกระบวนการ Code Review ตามมาตรฐานของทีม',
-        technologies: ['Vue.js', 'TypeScript', 'Vuetify', 'PrimeVue'],
+        technologies: ['Vue.js', 'TypeScript', 'Nuxt.js', 'Vuetify'],
       },
     ],
     education: [
