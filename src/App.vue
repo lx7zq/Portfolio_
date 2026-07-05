@@ -6,6 +6,11 @@ import HeroSection from './components/HeroSection.vue'
 import LocaleToggle from './components/LocaleToggle.vue'
 import NavigationBar from './components/NavigationBar.vue'
 import ProjectsSection from './components/ProjectsSection.vue'
+
+const fadeUp = {
+  initial: { opacity: 0, y: 40 },
+  visibleOnce: { opacity: 1, y: 0, transition: { duration: 600 } },
+}
 </script>
 
 <template>
@@ -14,10 +19,10 @@ import ProjectsSection from './components/ProjectsSection.vue'
     <NavigationBar />
     <main>
       <HeroSection />
-      <AboutSection />
-      <ExperienceSection />
-      <ProjectsSection />
-      <ContactSection />
+      <AboutSection v-motion v-bind="fadeUp" />
+      <ExperienceSection v-motion v-bind="fadeUp" />
+      <ProjectsSection v-motion v-bind="fadeUp" />
+      <ContactSection v-motion v-bind="fadeUp" />
     </main>
   </div>
 </template>
